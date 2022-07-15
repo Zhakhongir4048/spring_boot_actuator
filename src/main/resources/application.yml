@@ -10,3 +10,18 @@ management:
     distribution:
       percentiles-histogram:
         "[http.server.requests]": true
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_boot
+    username: postgres
+    password: kinder8156946
+    driverClassName: org.postgresql.Driver
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    open-in-view: false
+    show-sql: true
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect

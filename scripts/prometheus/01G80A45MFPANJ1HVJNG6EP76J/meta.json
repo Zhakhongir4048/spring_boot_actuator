@@ -1,0 +1,17 @@
+{
+	"ulid": "01G80A45MFPANJ1HVJNG6EP76J",
+	"minTime": 1657800206732,
+	"maxTime": 1657807200000,
+	"stats": {
+		"numSamples": 41454,
+		"numSeries": 316,
+		"numChunks": 632
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01G80A45MFPANJ1HVJNG6EP76J"
+		]
+	},
+	"version": 1
+}
